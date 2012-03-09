@@ -1,12 +1,13 @@
-Batch Copy/Rename
-================
+# Batch Copy/Rename
 
 Copies or renames files in a batch, based on prefixes.
-Usage
------
+
+## Usage
+
 batch_cp_rename.sh [--rename] <source prefix> <target prefix>
-Examples
--------
+
+## Examples
+
         batch_cp_rename.sh todo done
 The above will copy all files beginning with "todo" replacing "todo" with the prefix "done" in the copies.
 
